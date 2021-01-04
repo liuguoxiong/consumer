@@ -16,8 +16,13 @@ public class ConsumerController {
     @Autowired
     ProviderClient providerClient;
 
-    @GetMapping("/hi-feign")
-    public String hiFeign(){
-       return providerClient.hi("feign");
+    @GetMapping("/getOrderServiceName")
+    public String getOrderServiceName(){
+       return providerClient.getName();
+    }
+
+    @GetMapping("/setOrder")
+    public String setOrder(){
+        return providerClient.setOrder();
     }
 }
