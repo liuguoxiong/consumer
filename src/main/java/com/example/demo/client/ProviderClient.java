@@ -11,9 +11,6 @@ public interface ProviderClient {
 
     @GetMapping("/order/getName")
     String getName();
-
-    @GetMapping("/order/setOrder")
-    String setOrder();
 }
 
 

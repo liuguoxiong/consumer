@@ -66,11 +66,11 @@
             <artifactId>seata-spring-boot-starter</artifactId>
             <version>1.2.0</version>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>com.fsnip</groupId>
             <artifactId>fxtx-core-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
 
